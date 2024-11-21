@@ -1,0 +1,4 @@
+Approved Claims Report
+Generated on: 2024/11/21 14:56:23
+--------------------------------------------------
+Lecturer: Claim Decscrption, Hours Worked: 23, Hourly Rate: 234, Total Payment: 5382

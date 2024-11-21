@@ -1,0 +1,19 @@
+﻿<Window x:Class="CMCS4.SubmitClaimWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Submit Claim" Height="400" Width="600" Background="Black">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Submit Claim" FontSize="20" HorizontalAlignment="Center" Foreground="White" Margin="0,0,0,10"/>
+
+            <TextBox x:Name="LecturerNameTextBox" Text="Lecturer Name" Width="200" Margin="0,5" />
+            <TextBox x:Name="HoursWorkedTextBox" Text="Hours Worked" Width="200" Margin="0,5" />
+            <TextBox x:Name="HourlyRateTextBox" Text="Hourly Rate" Width="200" Margin="0,5" />
+
+            <TextBlock Text="Calculated Total:" Foreground="White" Margin="0,10,0,5"/>
+            <TextBlock x:Name="TotalPaymentTextBlock" Text="0.00" Foreground="LightGreen" FontSize="16" Margin="0,5"/>
+
+            <Button Content="Submit Claim" Click="SubmitClaim_Click" Background="#800080" Foreground="White" Width="150" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>

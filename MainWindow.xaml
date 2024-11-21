@@ -1,0 +1,19 @@
+﻿<Window x:Class="CMCS4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Contract Monthly Claim System" Height="400" Width="600" Background="#800080">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Contract Monthly Claim System" FontSize="24" FontWeight="Bold" Foreground="White" TextAlignment="Center" Margin="0,0,0,10" />
+
+            <Button Content="Submit Claims" Width="200" Height="40" Click="SubmitClaims_Click" Background="#4CAF50" Foreground="White" Margin="0,5" />
+            <Button Content="Track Claim Status" Width="200" Height="40" Click="TrackStatus_Click" Background="#2196F3" Foreground="White" Margin="0,5" />
+            <Button Content="Approve Claims" Width="200" Height="40" Click="ApproveClaims_Click" Background="#FF9800" Foreground="White" Margin="0,5" />
+            <Button Content="Upload Documents" Width="200" Height="40" Click="UploadDocuments_Click" Background="#9C27B0" Foreground="White" Margin="0,5" />
+            <Button Content="HR Panel" Width="200" Height="40" Click="HRPanel_Click" Background="#F44336" Foreground="White" Margin="0,5" />
+            <Button Content="Exit" Width="200" Height="40" Click="Exit_Click" Background="Gray" Foreground="White" Margin="0,5" />
+
+        </StackPanel>
+    </Grid>
+</Window>
